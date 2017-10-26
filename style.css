@@ -100,7 +100,7 @@ h2 {
 }
 
 .content__post--2 {
-    background: linear-gradient(transparent, transparent, rgba(0,0,0, 0.8)), url('img/posts/bg-2.png') no-repeat center;
+    background: linear-gradient(transparent, transparent, rgba(0,0,0, 0.8)), url('img/posts/bg-2.PNG') no-repeat center;
 }
 
 .post__title {
