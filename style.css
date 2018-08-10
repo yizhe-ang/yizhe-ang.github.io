@@ -103,6 +103,10 @@ h2 {
     background: linear-gradient(transparent, transparent, rgba(0,0,0, 0.8)), url('img/posts/bg-2.PNG') no-repeat center;
 }
 
+.content__post--3 {
+    background: linear-gradient(transparent, transparent, rgba(0,0,0, 0.8)), url('img/posts/bg-3.jpg') no-repeat center;
+}
+
 .post__title {
     font-size: 36px;
     font-weight: 700;
