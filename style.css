@@ -134,6 +134,12 @@ header img {
     url("img/posts/bg-5.png") no-repeat center;
 }
 
+.content__post--6 {
+  background: linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.1)),
+    url("img/posts/bg-6.png") no-repeat;
+  background-size: cover;
+}
+
 .post__title {
   font-size: 36px;
   font-weight: 700;
@@ -191,3 +197,17 @@ footer a {
     display: block;
     margin: 0 auto;
 }*/
+
+.section__title {
+  display: grid;
+  place-content: center;
+}
+
+h1 {
+  margin: 0;
+  margin-top: 64px;
+  margin-bottom: -16px;
+
+  font-family: "PT Sans", sans-serif;
+  color: rgb(152,152,152);
+}
