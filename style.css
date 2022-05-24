@@ -140,6 +140,12 @@ header img {
   background-size: cover;
 }
 
+.content__post--7 {
+  background: linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.1)),
+    url("img/posts/bg-7.png") no-repeat;
+  background-size: cover;
+}
+
 .post__title {
   font-size: 36px;
   font-weight: 700;
