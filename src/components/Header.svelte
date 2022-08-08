@@ -80,19 +80,27 @@
 	.em-1 {
 		/* font-weight: 700; */
 		/* color: var(--color-gray-600); */
-		text-decoration: underline var(--underline-width) var(--color-blue);
+		text-decoration-line: underline;
+		text-decoration-color: var(--color-blue);
+		text-decoration-style: solid;
+		text-decoration-thickness: var(--underline-width);
 	}
 
 	.em-2 {
 		/* font-weight: 700; */
 		/* color: var(--color-gray-600); */
-		text-decoration: underline var(--underline-width) var(--color-light-green);
+		text-decoration-line: underline;
+		text-decoration-color: var(--color-light-green);
+		text-decoration-style: solid;
+		text-decoration-thickness: var(--underline-width);
 	}
 
 	.introduction {
 		/* visibility: hidden; */
 		width: 960px;
 		padding-left: 32px;
+
+		transform: translateZ(1000px);
 	}
 
 	header {
