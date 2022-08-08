@@ -7,6 +7,7 @@
 	export let url = "https://yizhe-ang.github.io/";
 	export let keywords =
 		"web design, data science, data visualization, machine learning";
+	// FIXME: Fix social image
 	export let socialImg = `${base}/social.png`;
 
 	export let preloadFont = [
