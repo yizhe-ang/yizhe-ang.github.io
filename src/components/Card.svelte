@@ -105,6 +105,8 @@
 		transition: 0.4s ease-in-out transform; */
 
 		transition: transform 600ms, box-shadow 600ms;
+
+		transform: translateZ(0);
 	}
 
 	article:hover .img-wrapper {
