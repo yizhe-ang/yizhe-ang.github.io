@@ -1,0 +1,7 @@
+title,subtitle,url,month,year,description,keywords,tags,wip,award,collab,imgUrl
+K-Means Clustering,An Explorable Explainer,https://k-means-explorable.vercel.app/,7,2022,An Explorable Explainer of K-Means Clustering,"k-means, clustering, unsupervised, machine learning, explorable, explainer, interactive, ai, visualization, tutorial","machine learning, explorable",,,,/imgs/bg-7.png
+Global Trade Network,Interactives,https://trade-network-vis.vercel.app/,3,2022,,,data viz,,,,/imgs/bg-5.png
+Linear Regression,Interactives,https://observablehq.com/@yizhe-ang/interactive-visualization-of-linear-regression,10,2021,,,machine learning,,,,/imgs/bg-4.png
+Defenders of Old,Exploring the most decorated players of Dota 2,https://yizhe-ang.github.io/defenders-of-old/,8,2018,,,data story,,,,/imgs/bg-3.jpeg
+the Metagame,Figuring out what IceFrog is up to,https://yizhe-ang.github.io/meta-game/,10,2017,,,data story,,,,/imgs/bg-2.png
+Hold your zebras,Visualizing the Base Rate Fallacy,https://yizhe-ang.github.io/hold-your-zebras/,9,2017,,,explorable,,,,/imgs/bg-1.png
