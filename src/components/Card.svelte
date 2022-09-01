@@ -13,6 +13,7 @@
 
 <article>
 	<div class="metadata-wrapper">
+		<!-- TODO: Use month names instead of numbers -->
 		<div class="date">
 			{data.month ? `${data.month.padStart(2, "0")} / ${data.year}` : "WIP"}
 		</div>
@@ -36,6 +37,10 @@
 			<h4>{data.subtitle}</h4>
 		</div>
 	</a>
+	{#if data.comments}
+		<!-- TODO: Some icon here? -->
+		<div class="comments">{@html data.comments}</div>
+	{/if}
 </article>
 
 <style>
@@ -156,6 +161,31 @@
 		font-family: var(--font-body);
 
 		color: var(--color-gray-500);
+	}
+
+	.comments {
+		justify-self: flex-end;
+		/* align-self: flex-end; */
+
+		/* padding: 0 8px; */
+		padding-left: var(--padding-left);
+		margin-top: 4px;
+		border-radius: 5px;
+
+		/* background-color: var(--color-lighter-blue); */
+		color: var(--color-gray-400);
+		font-size: var(--16px);
+	}
+
+	:global(.comments a) {
+		--text-color: var(--color-gray-500);
+
+		color: var(--text-color);
+
+		text-decoration-line: underline;
+		text-decoration-color: var(--text-color);
+		text-decoration-style: solid;
+		text-decoration-thickness: 1.5px;
 	}
 
 	@media (max-width: 37.5rem) {

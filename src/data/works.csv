@@ -1,5 +1,5 @@
-title,subtitle,url,month,year,description,keywords,tags,wip,award,collab,imgUrl
-K-Means Clustering,An Explorable Explainer,https://k-means-explorable.vercel.app/,7,2022,An Explorable Explainer of K-Means Clustering,"k-means, clustering, unsupervised, machine learning, explorable, explainer, interactive, ai, visualization, tutorial","machine learning, explorable",,,,/imgs/bg-7.png
+title,subtitle,url,month,year,description,keywords,tags,wip,award,comments,imgUrl
+K-Means Clustering,An Explorable Explainer,https://k-means-explorable.vercel.app/,7,2022,An Explorable Explainer of K-Means Clustering,"k-means, clustering, unsupervised, machine learning, explorable, explainer, interactive, ai, visualization, tutorial","machine learning, explorable",,,"Accepted to <a href=""https://visxai.io/"" target=""_blank"" rel=""noopener noreferrer"">VISxAI '22</a>",/imgs/bg-7.png
 Reaching for Venus,Exploring Female Representation in Parliaments around the World and Singapore,https://parliament-represent-vis.vercel.app/,,,,,data story,TRUE,,,/imgs/bg-6.png
 Global Trade Network,Interactives,https://trade-network-vis.vercel.app/,3,2022,,,data viz,,,,/imgs/bg-5.png
 Linear Regression,Interactives,https://observablehq.com/@yizhe-ang/interactive-visualization-of-linear-regression,10,2021,,,machine learning,,,,/imgs/bg-4.png

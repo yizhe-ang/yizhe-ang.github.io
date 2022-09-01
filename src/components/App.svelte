@@ -1,4 +1,5 @@
 <script>
+	// FIXME: FOUC, namely the font loading
 	import { onMount } from "svelte";
 	import { gsap } from "$utils/gsap.js";
 	import Header from "$components/Header.svelte";
