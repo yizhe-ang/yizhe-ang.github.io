@@ -54,7 +54,7 @@
 		width: 384px;
 		padding: 16px 32px;
 		padding-bottom: 32px;
-		overflow: hidden;
+		overflow: visible;
 
 		color: var(--color-gray-700);
 		/* background-color: var(--color-light-green); */
