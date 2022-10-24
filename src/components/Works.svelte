@@ -7,16 +7,16 @@
 	// Add texture
 	// Fade from a dark screen
 	// TODO: Shadow from the left / right
-	import data from "$data/works.csv";
 	import Card from "$components/Card.svelte";
 
-	const datum = data[0];
+	export let type;
+	export let data;
 </script>
 
-<section id="works">
+<section class="works" id={type}>
 	<!-- <div class="spacer" /> -->
 	<div id="title-portfolio" class="title-wrapper">
-		<h2>Portfolio</h2>
+		<h2>{type}</h2>
 	</div>
 	<div id="scroller" class="horizontal-media-scroller">
 		<!-- <Card data={datum} /> -->
@@ -69,6 +69,7 @@
 	.horizontal-media-scroller {
 		display: grid;
 		grid-auto-flow: column;
+		justify-content: left;
 		margin: 0;
 
 		overflow-x: auto;

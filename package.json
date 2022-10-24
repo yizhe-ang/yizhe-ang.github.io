@@ -20,6 +20,7 @@
 		"feather-icons": "^4.28.0",
 		"gsap": "^3.10.4",
 		"lodash.debounce": "^4.0.8",
+		"lucide-svelte": "^0.93.0",
 		"node-fetch": "^3.2.6",
 		"postcss": "^8.4.13",
 		"prettier": "^2.7.1",

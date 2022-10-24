@@ -10,7 +10,6 @@
 	import Gradient from "$components/Gradient.svelte";
 	import Icon from "$components/Icon.svelte";
 	import IconLink from "$components/IconLink.svelte";
-	import DecorativeLine from "$components/DecorativeLine.svelte";
 
 	const iconSize = "1.75rem";
 </script>

@@ -7,6 +7,7 @@
 	// Only reveal when come into view? rotateX
 	// TODO: Focus state; animation; visual cues
 	import { base } from "$app/paths";
+	import { Award } from "lucide-svelte";
 
 	export let data;
 </script>
@@ -37,21 +38,33 @@
 			<h4>{data.subtitle}</h4>
 		</div>
 	</a>
-	{#if data.comments}
-		<!-- TODO: Some icon here? -->
-		<div class="comments">{@html data.comments}</div>
-	{/if}
+	<div class="details">
+		{#if data.comments}
+			<div class="comments">
+				{@html data.comments}
+			</div>
+		{/if}
+		{#if data.award}
+			<div class="award">
+				<span class="award-icon"><Award /></span>
+				{@html data.award}
+			</div>
+		{/if}
+	</div>
 </article>
 
 <style>
 	article {
 		--padding-left: 2px;
 
+		position: relative;
 		display: flex;
 		flex-direction: column;
+
 		gap: var(--16px);
 
 		width: 384px;
+		height: 100%;
 		padding: 16px 32px;
 		padding-bottom: 32px;
 		overflow: visible;
@@ -163,7 +176,19 @@
 		color: var(--color-gray-500);
 	}
 
-	.comments {
+	.details {
+		/* justify-self: flex-end; */
+		/* margin-top: auto; */
+		/* flex: 1; */
+
+		position: absolute;
+		bottom: 0;
+		transform: translate(0, -100%);
+	}
+
+	.comments,
+	.award {
+		position: relative;
 		justify-self: flex-end;
 		/* align-self: flex-end; */
 
@@ -177,7 +202,7 @@
 		font-size: var(--16px);
 	}
 
-	:global(.comments a) {
+	:global(.comments a, .award a) {
 		--text-color: var(--color-gray-500);
 
 		color: var(--text-color);
@@ -186,6 +211,13 @@
 		text-decoration-color: var(--text-color);
 		text-decoration-style: solid;
 		text-decoration-thickness: 1.5px;
+	}
+
+	.award-icon {
+		position: absolute;
+		top: 0;
+		left: 0;
+		transform: translate(-90%);
 	}
 
 	@media (max-width: 37.5rem) {
@@ -206,6 +238,11 @@
 
 		h4 {
 			font-size: var(--18px);
+		}
+
+		.comments,
+		.award {
+			font-size: var(--14px);
 		}
 	}
 </style>
