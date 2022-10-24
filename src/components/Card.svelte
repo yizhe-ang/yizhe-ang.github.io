@@ -10,13 +10,23 @@
 	import { Award } from "lucide-svelte";
 
 	export let data;
+
+	function toMonthName(monthNumber) {
+		const date = new Date()
+		date.setMonth(monthNumber - 1)
+
+		return date.toLocaleString('en-US', {
+			month: 'short'
+		})
+	}
 </script>
 
 <article>
 	<div class="metadata-wrapper">
 		<!-- TODO: Use month names instead of numbers -->
 		<div class="date">
-			{data.month ? `${data.month.padStart(2, "0")} / ${data.year}` : "WIP"}
+			<!-- {data.month ? `${data.month.padStart(2, "0")} / ${data.year}` : "WIP"} -->
+			{data.month ? `${toMonthName(data.month)} ${data.year}` : "WIP"}
 		</div>
 		<div class="tags-wrapper">
 			{#each data.tags.split(",") as tag}
@@ -88,6 +98,7 @@
 		font-size: var(--12px);
 		font-weight: 900;
 		color: var(--color-gray-400);
+		text-transform: uppercase;
 	}
 
 	.tag {
