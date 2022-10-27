@@ -60,6 +60,12 @@
 				{@html data.award}
 			</div>
 		{/if}
+		{#if data.award2}
+			<div class="award">
+				<span class="award-icon"><Award /></span>
+				{@html data.award2}
+			</div>
+		{/if}
 	</div>
 </article>
 
@@ -194,7 +200,7 @@
 
 		position: absolute;
 		bottom: 0;
-		transform: translate(0, -100%);
+		transform: translate(0, -16px);
 	}
 
 	.comments,
