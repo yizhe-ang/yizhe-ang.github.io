@@ -12,12 +12,12 @@
 	export let data;
 
 	function toMonthName(monthNumber) {
-		const date = new Date()
-		date.setMonth(monthNumber - 1)
+		const date = new Date();
+		date.setMonth(monthNumber - 1);
 
-		return date.toLocaleString('en-US', {
-			month: 'short'
-		})
+		return date.toLocaleString("en-US", {
+			month: "short"
+		});
 	}
 </script>
 
@@ -185,6 +185,8 @@
 		font-weight: 700;
 		font-size: var(--32px);
 		font-family: var(--font-subheader);
+		line-height: 1.1;
+		margin-bottom: var(--8px);
 
 		color: var(--color-gray-700);
 	}
