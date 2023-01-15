@@ -181,12 +181,13 @@
 
 	h3 {
 		margin: 0;
+		margin-bottom: var(--8px);
+		margin-top: var(--4px);
 
 		font-weight: 700;
 		font-size: var(--32px);
 		font-family: var(--font-subheader);
-		line-height: 1.1;
-		margin-bottom: var(--8px);
+		line-height: 1;
 
 		color: var(--color-gray-700);
 	}
@@ -259,6 +260,7 @@
 
 		h3 {
 			font-size: var(--24px);
+      margin-top: 0;
 		}
 
 		h4 {
