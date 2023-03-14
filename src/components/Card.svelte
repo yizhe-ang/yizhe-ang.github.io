@@ -88,7 +88,7 @@
 		width: 384px;
 		height: 100%;
 		padding: 16px 32px;
-		padding-bottom: 32px;
+		padding-bottom: 36px;
 		overflow: visible;
 
 		color: var(--color-gray-700);
@@ -209,7 +209,7 @@
 
 		position: absolute;
 		bottom: 0;
-		transform: translate(0, -16px);
+		transform: translate(0, -8px);
 	}
 
 	.comments,
