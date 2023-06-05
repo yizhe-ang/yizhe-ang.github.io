@@ -66,12 +66,12 @@
 				{@html data.award2}
 			</div>
 		{/if}
-		<!-- {#if data.award3}
+		{#if data.award3}
 			<div class="award">
 				<span class="award-icon"><Award /></span>
 				{@html data.award3}
 			</div>
-		{/if} -->
+		{/if}
 	</div>
 </article>
 
