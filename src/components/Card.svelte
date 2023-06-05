@@ -255,6 +255,7 @@
 		article {
 			padding-left: 0;
 			padding-top: 0;
+      padding-bottom: 48px;
 			width: 300px;
 		}
 
