@@ -12,7 +12,6 @@
 
 	// Update number of user visits
 	$numVisits += 1;
-	$: console.log($numVisits);
 
 	// FIXME: Can this be done elsewhere for optimization?
 	// Process data
