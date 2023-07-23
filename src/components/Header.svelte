@@ -10,12 +10,11 @@
 	import Gradient from "$components/Gradient.svelte";
 	import Icon from "$components/Icon.svelte";
 	import IconLink from "$components/IconLink.svelte";
+	import LibLoader from "$components/LibLoader.svelte";
 
 	const iconSize = "1.75rem";
 
 	function initKofi() {
-		// kofiwidget2.init("Buy Me a Coffee", "#29abe0", "U7U4NH69A");
-		// kofiwidget2.draw();
 		kofiWidgetOverlay.draw("yizhe_ang", {
 			type: "floating-chat",
 			"floating-chat.donateButton.text": "Support me",
@@ -25,15 +24,11 @@
 	}
 </script>
 
-<svelte:head>
-	<!-- <script
-		on:load={initKofi}
-		type="text/javascript"
-		src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script> -->
-	<script
-		on:load={initKofi}
-		src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
-</svelte:head>
+<LibLoader
+	src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"
+	libraryDetectionObject="kofiWidgetOverlay"
+	on:loaded={initKofi}
+/>
 
 <!-- Logo -->
 <!-- Intro / Bio -->
@@ -53,6 +48,7 @@
 				<span class="first-name">Yi Zhe</span>
 				<span class="lighten last-name">Ang</span>
 			</h1>
+			<!-- <a href='https://ko-fi.com/U7U4NH69A' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi5.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a> -->
 		</div>
 		<p class="intro">
 			<!-- explainables? -->
