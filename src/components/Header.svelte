@@ -12,7 +12,28 @@
 	import IconLink from "$components/IconLink.svelte";
 
 	const iconSize = "1.75rem";
+
+	function initKofi() {
+		// kofiwidget2.init("Buy Me a Coffee", "#29abe0", "U7U4NH69A");
+		// kofiwidget2.draw();
+		kofiWidgetOverlay.draw("yizhe_ang", {
+			type: "floating-chat",
+			"floating-chat.donateButton.text": "Support me",
+			"floating-chat.donateButton.background-color": "#00b9fe",
+			"floating-chat.donateButton.text-color": "#fff"
+		});
+	}
 </script>
+
+<svelte:head>
+	<!-- <script
+		on:load={initKofi}
+		type="text/javascript"
+		src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script> -->
+	<script
+		on:load={initKofi}
+		src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
+</svelte:head>
 
 <!-- Logo -->
 <!-- Intro / Bio -->
