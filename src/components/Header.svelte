@@ -14,21 +14,21 @@
 
 	const iconSize = "1.75rem";
 
-	function initKofi() {
-		kofiWidgetOverlay.draw("yizhe_ang", {
-			type: "floating-chat",
-			"floating-chat.donateButton.text": "Support me",
-			"floating-chat.donateButton.background-color": "#00b9fe",
-			"floating-chat.donateButton.text-color": "#fff"
-		});
-	}
+	// function initKofi() {
+	// 	kofiWidgetOverlay.draw("yizhe_ang", {
+	// 		type: "floating-chat",
+	// 		"floating-chat.donateButton.text": "Support me",
+	// 		"floating-chat.donateButton.background-color": "#00b9fe",
+	// 		"floating-chat.donateButton.text-color": "#fff"
+	// 	});
+	// }
 </script>
 
-<LibLoader
+<!-- <LibLoader
 	src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"
 	libraryDetectionObject="kofiWidgetOverlay"
 	on:loaded={initKofi}
-/>
+/> -->
 
 <!-- Logo -->
 <!-- Intro / Bio -->
@@ -48,7 +48,6 @@
 				<span class="first-name">Yi Zhe</span>
 				<span class="lighten last-name">Ang</span>
 			</h1>
-			<!-- <a href='https://ko-fi.com/U7U4NH69A' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi5.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a> -->
 		</div>
 		<p class="intro">
 			<!-- explainables? -->
