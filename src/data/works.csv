@@ -1,5 +1,5 @@
 title,subtitle,url,month,year,description,keywords,tags,wip,award,award2,award3,comments,imgUrl,type
-The Matrix Arcade,A Visual Explorable of Matrix Transformations,https://yizhe-ang.github.io/matrix-explorable/,8,2023,,,"data science, explorable",,,,,,/imgs/bg-13.png,portfolio
+The Matrix Arcade,A Visual Explorable of Matrix Transformations,https://yizhe-ang.github.io/matrix-explorable/,8,2023,,,"data science, explorable",,"<b>Honorable Mention</b> in 3Blue1Brown's <a href=""https://some.3b1b.co/"" target=""_blank"" rel=""noopener noreferrer"">SoME3</a>",,,,/imgs/bg-13.png,portfolio
 Sleepless in Singapore?,Even nights are getting hotter according to 40-year temperature data,https://www.straitstimes.com/multimedia/graphics/2023/03/singapore-getting-hotter-temperature-data/index.html,3,2023,,,data story,,,,,"with <a href=""https://www.straitstimes.com/multimedia/graphics"" target=""_blank"" rel=""noopener noreferrer"">The Straits Times</a>",/imgs/bg-11.png,portfolio
 Photos & Colors in Space,Three.js,https://yizhe-ang.github.io/color-photo-viz/,1,2023,,,data viz,,,,,,/imgs/bg-12.png,sketches
 Visualizing Images at Scale with Instancing,Three.js,https://github.com/yizhe-ang/threejs-instancing-images,1,2023,,,data viz,,,,,,/imgs/bg-10.png,sketches
