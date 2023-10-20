@@ -88,7 +88,8 @@
 		width: 384px;
 		height: 100%;
 		padding: 16px 32px;
-		padding-bottom: 36px;
+		/* padding-bottom: 36px; */
+		padding-bottom: 64px;
 		overflow: visible;
 
 		color: var(--color-gray-700);
@@ -186,6 +187,7 @@
 
 		font-weight: 700;
 		font-size: var(--32px);
+		/* font-size: var(--28px); */
 		font-family: var(--font-subheader);
 		line-height: 1;
 
