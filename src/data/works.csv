@@ -1,4 +1,6 @@
 title,subtitle,url,month,year,description,keywords,tags,wip,award,award2,award3,comments,imgUrl,type
+Urban Paradise,Procedural Generation and React Three Fiber,https://yizhe-ang.github.io/urban-paradise/,8,2024,,,webgl,,,,,,/imgs/bg-17.png,sketches
+Watercolor Painting,Transformers.js and React Three Fiber,https://yizhe-ang.github.io/watercolor-painting/,8,2024,,,webgl,,,,,,/imgs/bg-18.png,sketches
 The Interactive Transformer,A visual interface for understanding and interpreting Transformers,https://github.com/yizhe-ang/interactive-transformer,,,,,"AI, explorable",TRUE,,,,,/imgs/bg-14.png,sketches
 Color Palettes from Images,Particles and React Three Fiber,https://yizhe-ang.github.io/image-color-palette/,1,2024,,,webgl,,,,,,/imgs/bg-16.png,sketches
 Everton Road,Gaussian Splatting and React Three Fiber,https://yizhe-ang.github.io/everton-road-sg/,12,2023,,,webgl,,,,,,/imgs/bg-15.png,sketches
