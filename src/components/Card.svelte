@@ -89,7 +89,8 @@
 		height: 100%;
 		padding: 16px 32px;
 		/* padding-bottom: 36px; */
-		padding-bottom: 64px;
+		/* padding-bottom: 64px; */
+		padding-bottom: 72px;
 		overflow: visible;
 
 		color: var(--color-gray-700);
@@ -217,8 +218,8 @@
 	.comments,
 	.award {
 		position: relative;
-		justify-self: flex-end;
-		/* align-self: flex-end; */
+		/* justify-self: flex-end; */
+		align-self: flex-end;
 
 		/* padding: 0 8px; */
 		padding-left: var(--padding-left);
@@ -257,7 +258,8 @@
 		article {
 			padding-left: 0;
 			padding-top: 0;
-      padding-bottom: 48px;
+      /* padding-bottom: 48px; */
+      padding-bottom: 64px;
 			width: 300px;
 		}
 
