@@ -1,4 +1,5 @@
 title,subtitle,url,month,year,description,keywords,tags,wip,award,award2,award3,comments,imgUrl,type
+The sky as a canvas,the artistry and science of drone shows,https://multimedia.scmp.com/infographics/news/world/article/3292066/drone-shows/,12,2024,,,visual story,,,,,"with <a href=""https://www.scmp.com/infographic/"" target=""_blank"" rel=""noopener noreferrer"">South China Morning Post</a>",/imgs/bg-19.jpg,portfolio
 Urban Paradise,Procedural Generation and React Three Fiber,https://yizhe-ang.github.io/urban-paradise/,8,2024,,,webgl,,,,,,/imgs/bg-17.png,sketches
 Watercolor Painting,Transformers.js and React Three Fiber,https://yizhe-ang.github.io/watercolor-painting/,8,2024,,,webgl,,,,,,/imgs/bg-18.png,sketches
 The Interactive Transformer,A visual interface for understanding and interpreting Transformers,https://github.com/yizhe-ang/interactive-transformer,,,,,"AI, explorable",TRUE,,,,,/imgs/bg-14.png,sketches
