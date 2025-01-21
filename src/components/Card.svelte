@@ -161,6 +161,7 @@
 	img {
 		height: 192px;
 		object-fit: cover;
+    width: 100%;
 
 		/* if empty, show a gradient placeholder */
 		background-image: linear-gradient(to bottom, hsl(0 0% 40%), hsl(0 0% 20%));
