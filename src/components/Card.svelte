@@ -174,6 +174,7 @@
 		filter: saturate(100%);
 	}
 
+
 	.title {
 		display: flex;
 		flex-direction: column;
